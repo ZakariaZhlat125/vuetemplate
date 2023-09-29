@@ -39,8 +39,8 @@ export default defineNuxtPlugin(async (nuxtApp) => {
         baseURL: apiBase,
         method: "POST",
         body: {
-          email: "admin@example.com",
-          password: "123Pa$$word!",
+          email: "Email",
+          password: "password",
         },
       });
       // Store token if there is not any error
